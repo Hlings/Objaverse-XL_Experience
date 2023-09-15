@@ -23,3 +23,4 @@ pip install fastparquet
 ```python
 python download_script_test.py
 ```
+Then you will get some ".glb" files.
