@@ -6,8 +6,20 @@ The official Huggingface website is (here)[https://huggingface.co/datasets/allen
 
 ## Something to do for downloading the dataset
 
-1) Before using the test_api.py, you need to install the "pyarrow" or "fastparquet". I'm attempting the fastparquet.
+0) Clone the objaverse-xl repository.
 
+```python
+git clone https://huggingface.co/datasets/allenai/objaverse-xl
 ```
+
+1) Before using the test_api.py, you need to install the "pyarrow" or "fastparquet". I attempt the fastparquet and it works.
+
+```python
 pip install fastparquet
+```
+
+2) Use the script "download_script_test.py" for testing the downloading and get some examples of smithsonian subdataset.
+
+```python
+python download_script_test.py
 ```
