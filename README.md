@@ -30,3 +30,14 @@ Then you will get some ".glb" files.
 ```python
 python check_glb.py
 ```
+
+4) **Sample the point clouds and visualization**
+The sampled point clouds can be obtained throunh sampling vertices or meshes (using open3d). (pip install open3d)
+
+```python
+python point_cloud_sampling.py
+```
+
+
+
+
