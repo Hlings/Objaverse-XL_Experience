@@ -24,3 +24,9 @@ pip install fastparquet
 python download_script_test.py
 ```
 Then you will get some ".glb" files.
+
+3) I use the check_glb.py file to check the status of the ".glb" file.
+
+```python
+python check_glb.py
+```
